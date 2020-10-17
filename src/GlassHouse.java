@@ -9,5 +9,10 @@ public class GlassHouse extends HouseTemplate {
     public void buildPillars() {
         System.out.println("Building Pillars with glass coating");
     }
-
+    
+    // added new method for roofing; by usnabeel1
+    @override
+    public void buildroofs(){
+        System.out.println("Building glass roofing")
+    }
 }
